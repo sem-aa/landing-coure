@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 40px;
 }
 
 .application-title .section-title {
@@ -12,8 +13,37 @@
   margin-bottom: 20px;
 }
 
+.section-description {
+  color: #0034ec;
+}
+
 .application-decor {
   display: none;
+}
+
+.application-star-container {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+
+.application-star1 {
+  position: absolute;
+  background-color: var(--green);
+  transform: rotate(45deg);
+  width: 70px;
+  height: 70px;
+}
+.application-star2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--green);
+  position: absolute;
+  color: var(--white-switchable);
+  width: 70px;
+  height: 70px;
 }
 
 .application-form-container {
