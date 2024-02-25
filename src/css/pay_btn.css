@@ -1,3 +1,9 @@
+.bg-astrology {
+background: url('./img/application/bg-section.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
 .btn-pay-container {
   position: sticky;
   z-index: 5;
@@ -97,7 +103,7 @@
 
   .pay-send {
     display: block;
-    
+
     height: 60px;
     padding-top: 16px;
     padding-bottom: 16px;
