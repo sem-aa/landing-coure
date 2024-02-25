@@ -39,7 +39,7 @@ body {
   font-family: 'Manrope', serif;
   color: var(--black-switchable);
   line-height: 1.5;
-  background-color: var(--white-switchable);
+  background: linear-gradient(90deg, #ffb6c1, #d0ffce);
 }
 
 .visually-hidden {

@@ -24,29 +24,28 @@
 @import url('./modal_license.css');
 @import url('./aos.css');
 @import url('./header_page');
+@import url('./pay_btn');
 
-:root {
+:root  {
   --black-switchable: #121417;
-  --green: #4dc274;
+  --green: #ff4f82;
   --medium-green-switchable: #bee8cc;
-  --green-linear: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
+  --green-linear: linear-gradient(80deg, #ff4f82 0%, #bee8cc 100%);
   --light-green: #d4fde1;
   --gray-switchable: #f3f5f6;
   --white-switchable: #fff;
-  --hover-green: #38ae5f;
+  --hover-green: #ff869f;
   --dark-transparent-switchable: rgba(18, 20, 23, 0.5);
   --dark-hard-transparent-switchable: rgba(18, 20, 23, 0.1);
   --light-transparent-switchable: rgba(255, 255, 255, 0.5);
   --light-light-transparent-switchable: rgba(255, 255, 255, 0.7);
 
   --black: #121417;
-  --green: #4dc274;
   --medium-green: #bee8cc;
-  --green-linear: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
   --light-green: #d4fde1;
   --gray: #f3f5f6;
   --white: #fff;
-  --hover-green: #38ae5f;
+
   --dark-transparent: rgba(18, 20, 23, 0.5);
   --light-transparent: rgba(255, 255, 255, 0.5);
 

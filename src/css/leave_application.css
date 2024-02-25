@@ -48,7 +48,6 @@
   border-radius: 50%;
   background-color: var(--green);
   position: absolute;
-
 }
 
 .application-strengths--card-text {
@@ -63,13 +62,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
-  margin-top: 24px;
+  margin-bottom: 12px;
+  margin-top: 12px;
   gap: 8px;
 }
 
 .application-timer-msg {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.3;
   color: var(--black-switchable);
   font-weight: 700;
@@ -79,7 +78,7 @@
 .application-timer {
   border-radius: 48px;
   padding: 16px 18px;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.3;
   color: var(--black-switchable);
   background-color: var(--medium-green-switchable);
@@ -87,12 +86,24 @@
   text-align: center;
 }
 
+.application-btn-pay-container {
+  position: sticky;
+  z-index: 5;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: var(--light-transparent);
+  padding: 8px;
+  border-radius: 16px;
+}
+
 .application-send {
   display: block;
-  width: 335px;
-  height: 52px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  /* width: 335px;
+  height: 52px; */
+  /* padding-top: 14px; */
+  /* padding-bottom: 14px; */
+  padding: 8px;
   margin-bottom: 16px;
   font-family: 'Manrope', serif;
   font-size: 14px;
