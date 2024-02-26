@@ -1,4 +1,3 @@
-const btnPay = document.querySelector('.application-send');
 function startTimer(duration, display) {
   let timer = duration;
   let minutes;
@@ -15,9 +14,9 @@ function startTimer(duration, display) {
 
     localStorage.setItem('timer', timer);
     if (--timer < 0) {
-      timer = 60 * 5;
       localStorage.removeItem('timer');
-      btnPay.textContent = 'Придбати курс 1050 грн';
+      alert('Вам потрібен ще час?');
+      timer = 60 * 3;
     }
   }, 1000);
 }
