@@ -25,8 +25,9 @@
 @import url('./aos.css');
 @import url('./header_page');
 @import url('./pay_btn');
+@import url('./materials');
 
-:root  {
+:root {
   --black-switchable: #121417;
   --green: #ff4f82;
   --medium-green-switchable: #bee8cc;
@@ -58,5 +59,11 @@
 @font-face {
   font-family: 'Manrope';
   src: url('../font_manrope/Manrope-VariableFont_wght.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font_manrope/Montserrat/static/Montserrat-Medium.ttf');
   font-display: swap;
 }

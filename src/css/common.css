@@ -36,10 +36,10 @@ img {
 }
 
 body {
-  font-family: 'Manrope', serif;
+  font-family: 'Montserrat', 'Manrope', serif;
   color: var(--black-switchable);
   line-height: 1.5;
-  background: linear-gradient(90deg, #ffb6c1, #d0ffce);
+  background: linear-gradient(90deg, #fbdee2, #d0ffce);
 }
 
 .visually-hidden {

@@ -1,0 +1,82 @@
+.materials--bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.materials--cards {
+  counter-reset: item;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.materials--card {
+  width: 100%;
+  padding: 16px;
+  background-color: var(--gray-switchable);
+  border-radius: 16px;
+}
+
+.materials--card::before {
+  display: block;
+  content: counter(item, decimal-leading-zero);
+  counter-increment: item;
+  margin-bottom: 16px;
+  color: var(--green);
+  font-weight: var(--font-weight-bold);
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.56px;
+}
+
+.materials--card-text {
+  font-weight: var(--font-weight-bold);
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+
+.materials--image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 313px;
+  background-color: var(--green);
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .materials--bottom {
+    gap: 32px;
+  }
+
+  .materials--cards {
+    gap: 32px;
+  }
+
+  .materials--card {
+    flex-basis: calc((100% - 32px) / 2);
+    border-radius: 30px;
+  }
+
+  .materials--image {
+    width: 100%;
+    height: 243px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .materials--bottom {
+    flex-direction: row;
+  }
+
+  .materials--image {
+    width: 310px;
+    height: auto;
+  }
+}
